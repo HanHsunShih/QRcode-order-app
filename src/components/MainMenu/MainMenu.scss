@@ -9,10 +9,11 @@
 
   gap: 1rem;
 
-  &_block {
+  &__block {
     background-color: $primaryColor5;
     @include flex;
-    height: 20vh;
+    flex-direction: column;
+    padding: 1rem;
     width: 80vw;
     border-radius: 20px;
 

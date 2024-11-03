@@ -1,0 +1,21 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.card {
+  padding: 0.5rem;
+  background-color: $secondaryColor5;
+
+  &__image {
+    width: 100%;
+    object-fit: fill;
+  }
+
+  &__title {
+    @include text-small__small-body-copy;
+  }
+
+  &__price {
+    @include text-small__small-body-copy;
+    color: $primaryColor2;
+  }
+}

@@ -3,8 +3,10 @@
 
 .main-menu {
   @include flex;
+  padding: 1rem;
   flex-direction: column;
   background-color: $primaryColor3;
+
   gap: 1rem;
 
   &_block {

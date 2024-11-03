@@ -1,0 +1,23 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.main-menu {
+  @include flex;
+  flex-direction: column;
+  background-color: $primaryColor3;
+  gap: 1rem;
+
+  &_block {
+    background-color: $primaryColor5;
+    @include flex;
+    height: 20vh;
+    width: 80vw;
+    border-radius: 20px;
+
+    &-title {
+      @include text-small__title-bold;
+      color: $secondaryColor5;
+      font-size: 2rem;
+    }
+  }
+}

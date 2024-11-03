@@ -1,0 +1,44 @@
+@use "./typography" as *;
+@use "./variables" as *;
+
+@mixin flex($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+//Typography
+@mixin text-small__wordmark {
+  font-family: Rufina-Regular;
+  font-size: 3rem;
+  line-height: 2rem;
+  color: $primaryColor1;
+}
+
+@mixin text-small__title-regular {
+  font-family: Rufina-Regular;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  color: $primaryColor1;
+}
+
+@mixin text-small__title-bold {
+  font-family: Rufina-Regular;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  color: $primaryColor1;
+}
+
+@mixin text-small__body-copy {
+  font-family: AverageSans-Regular;
+  font-size: 1.5rem;
+  line-height: 0.9375rem;
+  color: $primaryColor1;
+}
+
+@mixin text-small__small-body-copy {
+  font-family: AverageSans-Regular;
+  font-size: 1.5rem;
+  line-height: 0.75rem;
+  color: $primaryColor1;
+}

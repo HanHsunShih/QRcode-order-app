@@ -1,0 +1,31 @@
+[
+  {
+    "category": "Pour-over Coffee",
+    "product": "Costa Rica Copey Estate",
+    "price": 180,
+    "roastLevel": "Natural/Light Roast",
+    "tags": [
+      "Orange",
+      "Melon",
+      "Sweet Berry",
+      "Plum",
+      "Brown Sugar",
+      "Vanilla",
+      "Butter"
+    ]
+  },
+  {
+    "category": "Pour-over Coffee",
+    "product": "Colombia Nariño Washed",
+    "price": 180,
+    "roastLevel": "Light-Medium Roast",
+    "tags": ["Brown Sugar", "Butter", "Citrus", "Roasted Walnut", "Chocolate"]
+  },
+  {
+    "category": "Pour-over Coffee",
+    "product": "Papua New Guinea Nabire",
+    "price": 180,
+    "roastLevel": "Washed/Medium Roast",
+    "tags": ["Nuts", "Butter", "Honey", "Licorice"]
+  }
+]

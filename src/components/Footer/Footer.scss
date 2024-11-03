@@ -1,0 +1,14 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.footer {
+  @include flex;
+  padding: 1rem;
+  background-color: $primaryColor1;
+
+  &__title {
+    @include text-small__small-body-copy;
+    color: $primaryColor3;
+    font-size: 1rem;
+  }
+}
